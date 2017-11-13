@@ -171,6 +171,10 @@ h3 {
   border: 1px solid #000;
   text-align: center;
   margin-bottom: 40px;
+  overflow: hidden;
+}
+.portfolio_item img {
+  max-width: 100%;
 }
 .box_contacts {
   background-image: 
