@@ -1,0 +1,226 @@
+html {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+header {
+  background-color: #363636;
+  background-image: 
+    linear-gradient(rgba(36, 36, 36, 0.5),rgba(36, 36, 36, 0.9)),
+    url('header_bg.jpeg');    
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  padding-bottom: 120px;
+}
+.header_menu {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.header_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header_menu li {
+  display: inline-block;
+}
+.header_menu a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header_menu a:hover {
+  text-decoration: underline;
+}
+.greeting {
+  max-width: 400px;
+  margin: auto;
+  text-shadow:  0 1px 5px rgba(0, 0, 0, 0.75);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.7em;
+  color: #fff;
+  text-align: center;
+}
+h1 small {
+  text-align: left;
+}
+h2 {
+  display: inline-block;
+  padding: 0 30px 10px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h3 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.greeting small {
+  display: block;
+  margin-top: 15px;
+  line-height: 40px;
+  color: #fff;
+}
+.box {
+  min-height: 100%;
+  padding-top: 40px;
+}
+.box_cv {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+.box_cv h2 {
+  border-bottom: 1px solid #999;
+}
+.box_cv .col-md-9 h3 {
+  text-align: left;
+}
+.about,
+.edu,
+.exp,
+.skills,
+.tools {
+  height: 300px;
+  border: 1px solid #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about {
+  height: 600px;
+  border-color: transparent;
+}
+.about_photo img {
+  max-width: 100%;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+.about_info {
+  padding: 10px;
+  text-align: left;
+}
+.about_info .personality {
+  margin-top: 20px;
+}
+.about_info .personality span {
+  font-weight: bold;
+}
+.about_info .social h4 {
+  margin-top: 40px;
+}
+.about_info .social .acc {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+}
+.about_info .social .acc:last-child {
+  margin-right: 0;
+}
+.about_info .social .acc.social_lnkd {
+  /*   background-color: #0077b5; */
+  background-image: url('https://simpleicons.org/icons/linkedin.svg');
+  background-repeat: no-repeat;
+}
+.about_info .social .acc.social_git {
+/*   background-color: #181717; */
+  background-image: url('https://simpleicons.org/icons/github.svg');
+  background-repeat: no-repeat;
+}
+.about_info .social .acc.social_codepen {
+/*   background-color: #000; */
+  background-image: url('https://simpleicons.org/icons/codepen.svg');
+  background-repeat: no-repeat;
+}
+.box_portfolio {
+  background-color: lightseagreen;
+  text-align: center;
+}
+.box_portfolio h2 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.box_portfolio h3 {
+  text-align: left;
+  margin-left: 15px;
+}
+.portfolio_item {
+  height: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.box_contacts {
+  background-image: 
+    linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)),
+    url('feedback_bg.jpeg');
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+form {
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  color: #20283c;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+}
+form h2 {   
+  border-bottom: 1px solid #424d66;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 16px;
+  margin: 20px 0 10px;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+}
+input[type="text"],
+textarea {
+  padding: 5px 10px;
+}
+textarea {
+  width: 100%;
+  color: #333;
+}
+button {
+  background-color: #28324b;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin: 40px 0 10px;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #20283c;
+}
+footer {
+	background-color: #28324b;
+  padding: 20px;
+  min-height: 40px;
+}
