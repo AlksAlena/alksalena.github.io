@@ -13,7 +13,7 @@ header {
   background-color: #363636;
   background-image: 
     linear-gradient(rgba(36, 36, 36, 0.5),rgba(36, 36, 36, 0.9)),
-    url('header_bg.jpeg');    
+    url('../img/header_bg.jpeg');    
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;  
@@ -172,7 +172,7 @@ h3 {
 .box_contacts {
   background-image: 
     linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)),
-    url('feedback_bg.jpeg');
+    url('../img/feedback_bg.jpeg');
   background-position: top;
   background-size: cover;
   padding-bottom: 40px;
