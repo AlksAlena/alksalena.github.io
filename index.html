@@ -3,8 +3,146 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alks Alena</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<h1>Hi, it is test template for my future site!</h1>
+ <header>
+  <nav class="header_menu">
+   <ul>
+    <li><a href="#cv">Resume</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contacts">Contacts</a></li>
+   </ul>
+  </nav>
+  <div class="greeting">
+   <h1>Hi, I am Alyona.
+			<small>
+        I am Junior Frontend-developer. Welcome to my personal page.</br>
+        Below you will find my resume, portfolio and contact form.
+     </small>
+	  </h1>
+  </div>
+ </header>
+
+	<section class="box box_cv" id="cv">
+		<h2>Resume</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="about">
+						<h3>Personal info</h3>
+            <div class="about_photo">
+              <img src="http://cf.ltkcdn.net/socialnetworking/images/std/168796-281x281-girl-swear-icon.png" alt="Avatar">
+            </div>
+            <div class="about_info">
+              <div class="personality">
+                <span>Name:</span> Alyona <br>
+                <span>Lastname:</span> ... <br>
+                <span>Age:</span> n/a <br>
+                <span>Location:</span> Omsk, Russia <br>
+              </div>
+              <div class="social">
+                <h4>Profiles:</h4>
+                <a href="https://www.linkedin.com/in/%D0%B0%D0%BB%D1%91%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D0%BD%D0%B0-2804761/" class="acc social_lnkd"></a>
+                <a href="https://github.com/alksalena" class="acc social_git"></a>
+                <a href="https://codepen.io/AlksAlena/" class="acc social_codepen"></a>
+              </div>              
+            </div>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-6">
+              <h3>Education</h3>
+							<div class="edu"></div>
+						</div>
+						<div class="col-md-6">
+              <h3>Experience</h3>
+							<div class="exp"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+              <h3>Skills</h3>
+							<div class="skills"></div>
+						</div>
+						<div class="col-md-6">
+              <h3>Tools</h3>
+							<div class="tools"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+ <section class="box box_portfolio" id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="container">
+   <div class="row">
+    <h3>Html + Css</h3>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>default Bootstrap</h4>
+     </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>custom Bootstrap</h4>
+     </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>Flexbox</h4>
+     </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>Grid</h4>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <h3>JS-projects</h3>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>Game tic-tac-toe</h4>
+     </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>Weather widget</h4>
+     </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>SinglePageApp</h4>
+     </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+     <div class="portfolio_item">
+      <h4>React</h4>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section class="box box_contacts" id="contacts">
+  <form action="">
+   <h2>Do you have any questions for me?</h2>
+   <label for="name">Your name:</label>
+   <input type="text" id="name" placeholder="Your name">
+   <label for="phone">Your email:</label>
+   <input type="text" id="email" placeholder="Your email">
+    <label for="message">Your message:</label>
+    <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message"></textarea>
+   <button>Send</button>
+  </form>
+ </section>
+  
+	<footer>&copy;All rights reserved</footer>
 </body>
 </html>
