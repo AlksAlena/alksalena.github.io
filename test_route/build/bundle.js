@@ -27413,7 +27413,25 @@ var App = function (_Component) {
 							{ className: "menu-item" },
 							_react2.default.createElement(
 								_reactRouterDom.Link,
-								{ className: "menu-item-link", to: "/contacts" },
+								{ className: "menu-item-link home-link", to: "/" },
+								"Portfolio"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							{ className: "menu-item" },
+							_react2.default.createElement(
+								_reactRouterDom.Link,
+								{ className: "menu-item-link main-link", to: "/test_route" },
+								"Main page app"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							{ className: "menu-item" },
+							_react2.default.createElement(
+								_reactRouterDom.Link,
+								{ className: "menu-item-link", to: "/test_route/contacts" },
 								"ContactsList"
 							)
 						),
@@ -27422,7 +27440,7 @@ var App = function (_Component) {
 							{ className: "menu-item" },
 							_react2.default.createElement(
 								_reactRouterDom.Link,
-								{ className: "menu-item-link", to: "/notes" },
+								{ className: "menu-item-link", to: "/test_route/notes" },
 								"NotesApp"
 							)
 						),
@@ -27431,7 +27449,7 @@ var App = function (_Component) {
 							{ className: "menu-item" },
 							_react2.default.createElement(
 								_reactRouterDom.Link,
-								{ className: "menu-item-link", to: "/timer" },
+								{ className: "menu-item-link", to: "/test_route/timer" },
 								"Timer"
 							)
 						),
@@ -27440,7 +27458,7 @@ var App = function (_Component) {
 							{ className: "menu-item" },
 							_react2.default.createElement(
 								_reactRouterDom.Link,
-								{ className: "menu-item-link", to: "/route" },
+								{ className: "menu-item-link", to: "/test_route/route" },
 								"RouterApp"
 							)
 						)
@@ -27457,10 +27475,10 @@ var App = function (_Component) {
 					_react2.default.createElement(
 						_reactRouterDom.Switch,
 						null,
-						_react2.default.createElement(_reactRouterDom.Route, { path: "/contacts", component: _ContactsList2.default }),
-						_react2.default.createElement(_reactRouterDom.Route, { path: "/notes", component: _NotesApp2.default }),
-						_react2.default.createElement(_reactRouterDom.Route, { path: "/timer", component: _Timer2.default }),
-						_react2.default.createElement(_reactRouterDom.Route, { path: "/route", component: _RouteApp2.default })
+						_react2.default.createElement(_reactRouterDom.Route, { path: "/test_route/contacts", component: _ContactsList2.default }),
+						_react2.default.createElement(_reactRouterDom.Route, { path: "/test_route/notes", component: _NotesApp2.default }),
+						_react2.default.createElement(_reactRouterDom.Route, { path: "/test_route/timer", component: _Timer2.default }),
+						_react2.default.createElement(_reactRouterDom.Route, { path: "/test_route/route", component: _RouteApp2.default })
 					)
 				)
 			);
@@ -27533,7 +27551,7 @@ var RouteApp = function (_Component) {
             { className: 'menu-item' },
             _react2.default.createElement(
               _reactRouterDom.Link,
-              { className: 'menu-item-link', to: '/route/about' },
+              { className: 'menu-item-link', to: '/test_route/route/about' },
               'About'
             )
           ),
@@ -27542,7 +27560,7 @@ var RouteApp = function (_Component) {
             { className: 'menu-item' },
             _react2.default.createElement(
               _reactRouterDom.Link,
-              { className: 'menu-item-link', to: '/route/inbox' },
+              { className: 'menu-item-link', to: '/test_route/route/inbox' },
               'Inbox'
             )
           )
@@ -27550,8 +27568,8 @@ var RouteApp = function (_Component) {
         _react2.default.createElement(
           _reactRouterDom.Switch,
           null,
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/route/about', component: _AboutPage2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/route/inbox', component: _InboxPage2.default })
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/test_route/route/about', component: _AboutPage2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/test_route/route/inbox', component: _InboxPage2.default })
         )
       );
     }
@@ -29196,7 +29214,7 @@ exports = module.exports = __webpack_require__(14)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n.app {\n  background-color: #fff;\n  width: 100vw;\n  min-height: 100vh;\n  box-sizing: border-box;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n.app .menu-bar {\n  margin: 0;\n  padding: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  background-color: #00BCD4;\n  box-sizing: border-box;\n  list-style-type: none;\n}\n.app .menu-item-link {\n  display: inline-block;\n  font-size: 17px;\n  padding: 16px;\n  color: rgba(255, 255, 255, 0.9);\n  text-transform: uppercase;\n  text-decoration: none;\n}\n.app .menu-item-link:hover {\n  background-color: #008fa1;\n}\n.app .content {\n  height: 100%;\n}\n", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n.app {\n  background-color: #fff;\n  width: 100vw;\n  min-height: 100vh;\n  box-sizing: border-box;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n.app .menu-bar {\n  margin: 0;\n  padding: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  background-color: #00BCD4;\n  box-sizing: border-box;\n  list-style-type: none;\n}\n.app .menu-item-link {\n  display: inline-block;\n  font-size: 17px;\n  padding: 16px;\n  color: rgba(255, 255, 255, 0.9);\n  text-transform: uppercase;\n  text-decoration: none;\n}\n.app .menu-item-link:hover {\n  background-color: #008fa1;\n}\n.app .home-link {\n  color: yellow;\n}\n.app .main-link {\n  color: blue;\n}\n.app .main-link:hover {\n  background-color: #e2e2e2;\n}\n.app .content {\n  height: 100%;\n}\n", ""]);
 
 // exports
 
